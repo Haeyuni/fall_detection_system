@@ -208,7 +208,7 @@ def monitor_battery_and_save():  # 배터리 모니터링 및 저장 함수
         
         time.sleep(10)
 
-API_KEY = "aqwhdiqowhdoqhdioqhwou1y89327weuhdsiquofdwjdfksl@!#*" #임의의 키값
+API_KEY = "test1" #임의의 키값
 app = FastAPI( #FastAPI 서버
     title="User Matchstats API Server", # 서버 이름
     description="낙상감지 서버", # 서버 설명
